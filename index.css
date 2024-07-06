@@ -1,0 +1,132 @@
+/*CSS for Links information row begins here */
+
+.fb{
+    height: 15px;
+    width: 15px;
+}
+
+
+.links--info{
+    display: flex;
+    height: 45px;
+    background-color: #0ddc8c;
+    color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+    
+}
+.social--media{
+    display: flex;
+    gap: 10px;
+    font-size: .8em;
+}
+.follow-us{
+    margin-top: 1.2em;
+}
+.account--info{
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+.account--info1{
+    font-size: .8em;
+    margin-top: 1.2em;
+}
+.social-imgs{
+    margin-top: 1.2em;
+}
+.login{
+    height: 23px;
+    width: 60px;
+    background-color: white;
+    color: #0ddc8c;
+    font-size: .76em;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    border-radius: .2em;
+}
+
+
+/* Nav bar CSS begins here */
+.nav--bar{
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    height: 70px;
+}
+
+.logo{
+    height: 30px;
+    width: 90px;
+    margin-top: .6em;
+    
+}
+.nav--links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 40px;   
+}
+a{
+    text-decoration: none;
+}
+.search{
+    margin-top: .8em;
+    display: flex;
+}
+.search--input{
+    height: 30px;
+    padding-left: .3em;
+}
+.search--btn{
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: .2em;
+    width: 40px;
+    margin-left: 0px;
+}
+
+
+/* CSS for main section begins here  */
+main{
+    height: 70vh;
+    text-align: center;
+    background: linear-gradient( rgba(12, 26, 39, 0.82), #17222a),
+    url("bg-img.jpg") no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.main--btn1{
+    width: 160px;
+    background-color: #0ddc8c;
+    color: white;
+    height: 35px;
+    margin-top: 90px;
+    border: none;
+    border-radius: 20px;
+}
+.main--btns2{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+.btn2{
+    background-color: #0ddc8c;
+    width:100px;
+    height: 35px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 8px 8px #13191d;
+}
+.btn1{
+    width: 100px;
+    height: 35px;
+    border: none;
+    box-shadow: 0px 0px 8px 8px #13191d;
+}
